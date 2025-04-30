@@ -1,4 +1,4 @@
-module youtube-recon
+module github.com/AbdulConsole/youtube-recon
 
 go 1.24.2
 
