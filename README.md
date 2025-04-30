@@ -30,27 +30,32 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/youtube-recon.git
-cd youtube-recon```
+git clone https://github.com/AbdulConsole/youtube-recon.git
+cd youtube-recon
+```
 
 2. Create a .env file:
 
 ```
-YOUTUBE_API_KEY=your_api_key_here```
+YOUTUBE_API_KEY=your_api_key_here
+```
 
 3. Run the tool:
 ```
-go run main.go -url "https://www.youtube.com/watch?v=VIDEO_ID"```
+go run main.go -url "https://www.youtube.com/watch?v=VIDEO_ID"
+```
 
+---
 For JSON output:
 ```
-go run main.go -url "https://www.youtube.com/watch?v=VIDEO_ID" --json```
+go run main.go -url "https://www.youtube.com/watch?v=VIDEO_ID" --json
+```
 
 ---
 
 ### Example Output
 
-#### Color Output
+### Color Output
 
 Title:       Understanding Cybersecurity
 Channel:     Tech Talks
@@ -66,6 +71,7 @@ Likes:       532
 Comments:    23
 
 #### JSON Output
+
 ```
 {
   "snippet": {
@@ -79,7 +85,8 @@ Comments:    23
     "likeCount": "532",
     ...
   }
-}```
+}
+```
 
 ---
 
