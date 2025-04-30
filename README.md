@@ -35,15 +35,15 @@ cd youtube-recon```
 
 2. Create a .env file:
 
-```bash
+```
 YOUTUBE_API_KEY=your_api_key_here```
 
 3. Run the tool:
-```bash
+```
 go run main.go -url "https://www.youtube.com/watch?v=VIDEO_ID"```
 
 For JSON output:
-```bash
+```
 go run main.go -url "https://www.youtube.com/watch?v=VIDEO_ID" --json```
 
 ---
@@ -66,7 +66,7 @@ Likes:       532
 Comments:    23
 
 #### JSON Output
-```json
+```
 {
   "snippet": {
     "title": "Understanding Cybersecurity",
